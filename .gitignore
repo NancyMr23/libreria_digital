@@ -1,0 +1,104 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Reportes de diagnóstico (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Datos de tiempo de ejecución
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directorio de las libs instrumentadas generadas por jscoverage/JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como istanbul
+coverage
+*.lcov
+
+# cobertura de prueba de Nyc
+.nyc_output
+
+# Almacenamiento intermedio Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Directorio de dependencias Bower (https://bower.io/)
+bower_components
+
+# Configuración node-waf 
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Directorios de dependencia
+node_modules/
+jspm_packages/
+
+# Archivos de declaración TypeScript v1
+typings/
+
+# cache TypeScript 
+*.tsbuildinfo
+
+# Directorio opcional npm cache 
+.npm
+
+# eslint cache opcional
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Historial opcional de REPL 
+.node_repl_history
+
+# Output de 'npm pack'
+*.tgz
+
+# Archivo Yarn Integrity 
+.yarn-integrity
+
+# archivo de variables de entorno dotenv
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generar output
+.nuxt
+dist
+
+# Archivos Gatsby 
+.cache/
+# Comente en la línea pública si tu proyecto utiliza Gatsby y *not* Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# vuepress build output
+.vuepress/dist
+
+# Directorio Serverless 
+.serverless/
+
+# cache FuseBox 
+.fusebox/
+
+# Archivos locales de DynamoDB 
+.dynamodb/
+
+# Archivo TernJS port 
+.tern-port
